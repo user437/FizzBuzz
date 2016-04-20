@@ -1,0 +1,11 @@
+for (int j = 1; j <= 100; j++)  //loop that runs 100 times
+{
+string Output = "";            // declaring a string variable
+
+if (j % 3 == 0) Output = "Fizz";// Divisible by 3 Fizz
+              
+if (j % 5 == 0) Output += "Buzz"; // Divisible by 5  Buzz
+              
+if (Output == "") Output = j.ToString(); // If none then number
+
+Console.WriteLine(Output);
